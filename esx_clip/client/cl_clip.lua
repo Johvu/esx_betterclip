@@ -13,9 +13,7 @@ AddEventHandler('esx_lipas:lipas', function()
   if IsPedArmed(ped, 4) then
     hash=GetSelectedPedWeapon(ped)
     if hash~=nil then
-	ammo = 25
       TriggerServerEvent('esx_lipas:remove', hash)
-     
       ESX.ShowNotification(_U('use'))
     else
       ESX.ShowNotification(_U('no_weapon'))
