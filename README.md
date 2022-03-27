@@ -1,5 +1,9 @@
 # esx_betterclip
 
+Install
+
+Add clip item to your database
+start the script
 
 
 Features:
