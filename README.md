@@ -12,6 +12,8 @@ Features:
 - Config.lua
 - added localization
 
+Sql:
+
       INSERT INTO items (name, label, limit, rare, can_remove) VALUES ('clip', 'lipas', 25, 0, 1);
 
 
